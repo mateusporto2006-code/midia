@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Video e Audio</title>
+</head>
+<body>
+    <center>
+    <h1>HTML Media</h1>
+    </center>
+    
+    <p>É muito comum encontrar videos e audios em websites, e o HTML possue alguns elementos e atributos para tornar isso possível.</p> 
+    
+    <h2>Video</h2>
+    <p>Utiliza-se o elemento &ltvideo para colocar um video no corpo de uma página.</p><br>
+    <pre>Para isso existem alguns atributos que auxiliam a ajustar o video na página, como:<br>
+    &ltwidth&gt e o  &ltheight&gt, os quais possibilitam modificar a largura e a altura,respectivamente, de um video em sua página<br>
+    &ltsource&gt permite colocar mais de uma opção de fonte para um mesmo. Assim, o navegador abrira aquela que reconhecer primeiro.<br>  
+    E o &ltcontrols&gt adiciona controles para seu video, como um botão para play, pause e volume.<br>
+    
+    &ltvideo width="320" height="240" controls&gt
+  &ltsource src="movie.mp4" type="video/mp4"&gt
+  &ltsource src="movie.ogg" type="video/ogg"&gt
+  Your browser does not support the video tag.
+    &lt/video&gt
+    </pre>
+
+    <h2>Audio</h2>
+    <pre>O HTML possue o elemento &ltaudio&gt para disponibilizar um painel controlável com um audio. Este possue basicamnete os mesmos atributos da tag &ltvideo&gt.<br>
+    &ltaudio controls&gt
+  &ltsource src="horse.ogg" type="audio/ogg"&gt
+  &ltsource src="horse.mp3" type="audio/mpeg"&gt
+  Your browser does not support the audio element.
+    &lt/audio&gt
+    </pre>
+
+</body>
+</html>
